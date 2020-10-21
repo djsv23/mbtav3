@@ -1,0 +1,57 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.11.1
+    method: GET
+    uri: https://api-v3.mbta.com/stops/place-sull
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA11STU/DMAz9K1XO3bovGJ2EEOy80w4cEKq8xF0NaVKSdNOY+O84bYGxW/P8/N6z
+        3bNQEECszgJCcLRrA/rupZRDz59iA2UJyTOcEjAqWUO9c6T2mGxDmqwrcBp9sEeTJpvHZDKbznKR
+        slbhg0MMYmVarVOh0EtHTSBrfiANgUKrUKwWs/H8bp4vbxi0EiKpCKeGK9OImP3AGy2n48nyNs8X
+        qahbQ5Ia0BROHPLJcgjDzgZqZootW9ABTLL9aMEhF1jzf6SGA5TW1YW0UfwK7HV68IAVSY1Dph47
+        VohaVkCu2Flwisye436lghTbs4zEkWcmO2sy791OPeqSixlHbXx2weE2h7ob3FfUdGRZkVZFR+Un
+        M0qQxNNSf59f0a4Ro2n2x8geStIB3Uvsf72/tGKlhjdi4oWgv8d5+AfiZF0UaesajUJVBAfGl+iG
+        DJ/W4BWf0X4vInrFUd68NdBQ5B24s7MQfDn2/gYe7ZAebgIAAA==
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '379'
+      Content-Type:
+      - application/vnd.api+json; charset=utf-8
+      Date:
+      - Sun, 18 Oct 2020 14:34:59 GMT
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      last-modified:
+      - Thu, 15 Oct 2020 20:21:14 GMT
+      server:
+      - Cowboy
+      strict-transport-security:
+      - max-age=31536000
+      vary:
+      - accept-encoding
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '997'
+      x-ratelimit-reset:
+      - '1603031700'
+      x-request-id:
+      - Fj8c1nCyOx-cpQ4VIjch
+    status:
+      code: 200
+      message: OK
+version: 1

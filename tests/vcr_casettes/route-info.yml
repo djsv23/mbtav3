@@ -1,0 +1,56 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.11.1
+    method: GET
+    uri: https://api-v3.mbta.com/routes/Orange
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA22RwU7DMAyGX6XKubCUE9oRweCAmATcEKpC661mIY6cbAJVe3fsdJ040Etq/59/
+        x85oepedWY7G5cz4sc+QNOrIE5ulubu9vrHW1KaH1DHGjBQk/ewi9tUru5Awq4oMnWqtcBmD038x
+        ejMrYslUD+h9EnDtdtU90wHM+9+q4L6g4C+0z4NwT8RyCrNxDG3nXUr/tPUUtqVWtLVkt1A9YgBR
+        0iAGs6SxhsQ9yFCNtVe2Nhm+czvPuSqfgPknSklzrA32Z1dthWFXNpPAb0RYMOmuFidAeAY/jT1g
+        LKTXq8g5b7gYavLi7Dp1m8ijeqhpG+UtgHV/oyZPUNG00WeiIItQywNwml6kubTi8AsVzucKzwEA
+        AA==
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '286'
+      Content-Type:
+      - application/vnd.api+json; charset=utf-8
+      Date:
+      - Sun, 18 Oct 2020 14:34:59 GMT
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-encoding:
+      - gzip
+      last-modified:
+      - Thu, 15 Oct 2020 20:21:23 GMT
+      server:
+      - Cowboy
+      strict-transport-security:
+      - max-age=31536000
+      vary:
+      - accept-encoding
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '998'
+      x-ratelimit-reset:
+      - '1603031700'
+      x-request-id:
+      - Fj8c1mojVQXVL_YKiFvj
+    status:
+      code: 200
+      message: OK
+version: 1

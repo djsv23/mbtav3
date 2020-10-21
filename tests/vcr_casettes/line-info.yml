@@ -1,0 +1,46 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.11.1
+    method: GET
+    uri: https://api-v3.mbta.com/lines/line-Orange
+  response:
+    body:
+      string: '{"data":{"attributes":{"color":"ED8B00","long_name":"Orange Line","short_name":"","sort_order":10020,"text_color":"FFFFFF"},"id":"line-Orange","links":{"self":"/lines/line-Orange"},"relationships":{"routes":{}},"type":"line"},"jsonapi":{"version":"1.0"}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '254'
+      Content-Type:
+      - application/vnd.api+json; charset=utf-8
+      Date:
+      - Sun, 18 Oct 2020 14:34:59 GMT
+      cache-control:
+      - max-age=0, private, must-revalidate
+      last-modified:
+      - Thu, 15 Oct 2020 20:21:11 GMT
+      server:
+      - Cowboy
+      strict-transport-security:
+      - max-age=31536000
+      x-ratelimit-limit:
+      - '1000'
+      x-ratelimit-remaining:
+      - '999'
+      x-ratelimit-reset:
+      - '1603031700'
+      x-request-id:
+      - Fj8c1mPfMe2fr8sVIjZh
+    status:
+      code: 200
+      message: OK
+version: 1
