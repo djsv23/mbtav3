@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='mbtav3',
-    version='0.1',
+    version='0.2',
     packages=find_packages(exclude=['tests']),
     url='https://github.com/djsv23/mbtav3',
     license='MIT',
