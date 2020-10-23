@@ -29,3 +29,10 @@ class MBTA:
             "get", f'{ENDPOINT_PREDICTIONS}', params=payload
         )
         return await response.json()
+        
+    async def listStops(self, payload=None):
+        """Get a list of Stops."""
+        response = await self.auth.request(
+            "get", f'{ENDPOINT_STOPS}', params=payload
+        )
+        return await response.json()
